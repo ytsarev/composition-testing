@@ -4,6 +4,8 @@ metadata:
   name: configuration-aws-network
 spec:
   parameters:
+    #deletionPolicy: Orphan
+    #providerConfigName: default
     id: configuration-aws-network
     region: us-west-2
     vpcCidrBlock: 192.168.0.0/16

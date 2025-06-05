@@ -1,3 +1,4 @@
+set -x
 crossplane render \
   --observed-resources observed \
   --include-full-xr \
