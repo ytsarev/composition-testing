@@ -1,4 +1,4 @@
-run:
+validate:
 	crossplane render \
   	--observed-resources observed \
   	--include-full-xr \
